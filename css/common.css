@@ -18,6 +18,13 @@ body {
   line-height: 1.71;
 }
 
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1170px;
+  outline: 2px solid tomato;
+}
+
 /* Шапка сайта */
 
 .logo {
@@ -35,6 +42,8 @@ body {
   color: var(--primary-white-color);
 }
 .list {
+  padding: 0;
+  margin: 0;
   list-style: none;
 }
 .link {
@@ -69,6 +78,7 @@ body {
 .mail:focus {
   color: var(--accent-color);
 }
+
 /* Футер */
 .footer {
   color: var(--primary-white-color);

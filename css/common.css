@@ -21,11 +21,20 @@ body {
 .container {
   margin-left: auto;
   margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 94px;
+  padding-bottom: 94px;
   width: 1170px;
-  outline: 2px solid tomato;
+  border-bottom: 1px solid #ececec;
 }
 
 /* Шапка сайта */
+
+.main-nav {
+  display: flex;
+  align-items: center;
+}
 
 .logo {
   color: var(--title-text-color);
@@ -52,9 +61,20 @@ body {
 
 /* Навигация */
 
-.site-nav .link {
-  color: var(--title-text-color);
+.site-nav {
+  display: flex;
+  margin-left: 85px;
+}
+.site-nav .item:not(:last-child) {
+  margin-right: 50px;
+}
 
+.site-nav .link {
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
+
+  color: var(--title-text-color);
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -67,13 +87,23 @@ body {
 .site-nav .link.current {
   color: var(--accent-color);
 }
+.auth-nav {
+  display: flex;
+  margin-left: auto;
+}
+.auth-nav .item + .item {
+  margin-left: 30px;
+}
 .mail {
+  display: flex;
+
   color: var(--primary-text-color);
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 2%;
 }
+
 .mail:hover,
 .mail:focus {
   color: var(--accent-color);

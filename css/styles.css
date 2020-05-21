@@ -104,6 +104,9 @@
 }
 /* Команда */
 
+.team-nav {
+  background-color: #f5f4fa;
+}
 .section .team {
   display: flex;
   text-align: center;
@@ -126,8 +129,6 @@
   line-height: 1.19;
 }
 .team .text {
-  padding-top: 0;
-  padding-bottom: 0;
   margin-top: 10px;
   margin-bottom: 16px;
   color: var(--primary-text-color);
@@ -135,6 +136,11 @@
   font-weight: 400;
   font-size: 16px;
   line-height: 1.19;
+}
+.item .item-team {
+  display: flex;
+  text-align: center;
+  padding-bottom: 24px;
 }
 
 /* Клиенты */

@@ -17,16 +17,15 @@ body {
   font-size: 14px;
   line-height: 1.71;
 }
-
+.section {
+  padding-bottom: 94px;
+}
 .container {
   margin-left: auto;
   margin-right: auto;
   padding-left: 15px;
   padding-right: 15px;
-  padding-top: 94px;
-  padding-bottom: 94px;
   width: 1170px;
-  border-bottom: 1px solid #ececec;
 }
 
 /* Шапка сайта */
@@ -137,6 +136,13 @@ body {
 }
 .footer.title {
   margin-left: 69px;
+
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+}
+.footer .subscript {
+  margin-left: 94px;
 
   font-weight: 700;
   font-size: 14px;

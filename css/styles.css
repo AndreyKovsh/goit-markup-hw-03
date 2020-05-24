@@ -3,17 +3,16 @@
 /* Герой */
 
 .hero {
+  background-color: var(--primary-text-color);
   text-align: center;
 }
 .section.hero {
-  padding-top: 0;
-  padding-bottom: 0;
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 .hero-title {
-  padding-top: 200px;
   margin-top: 0;
   margin-bottom: 46px;
-  background-color: var(--primary-text-color);
   color: var(--primary-white-color);
 
   font-weight: 900;
@@ -43,7 +42,6 @@
 }
 .button.primary {
   padding: 10px 32px;
-  margin-bottom: 200px;
 
   background-color: var(--accent-color);
   color: var(--primary-white-color);

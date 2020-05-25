@@ -175,3 +175,7 @@ body {
   font-size: 12px;
   line-height: 2;
 }
+.ps .text {
+  margin-top: 0;
+  margin-bottom: 0;
+}

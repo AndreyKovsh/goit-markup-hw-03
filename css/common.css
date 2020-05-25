@@ -18,6 +18,7 @@ body {
   line-height: 1.71;
 }
 .section {
+  padding-top: 94px;
   padding-bottom: 94px;
 }
 .container {
@@ -111,14 +112,19 @@ body {
 }
 
 /* Футер */
+
 .footer {
   color: var(--primary-white-color);
   background-color: var(--background-footer-color);
 }
+
 .footer .container {
   display: flex;
   padding-top: 48px;
+  padding-bottom: 28px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 }
+
 .footer .logo {
   margin-bottom: 10px;
   color: var(--title-text-color);
@@ -128,12 +134,14 @@ body {
   font-size: 22px;
   line-height: 1.18;
 }
+
 .footer .address {
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
 }
+
 .footer.title {
   margin-left: 69px;
 
@@ -141,6 +149,7 @@ body {
   font-size: 14px;
   line-height: 1.14;
 }
+
 .footer .subscript {
   margin-left: 94px;
 
@@ -148,9 +157,21 @@ body {
   font-size: 14px;
   line-height: 1.14;
 }
+
 .footer .text {
   color: rgba(255, 255, 255, 0.6);
 }
+
 .footer-main {
   display: flex;
+}
+
+.ps {
+  padding-top: 18px;
+  padding-bottom: 21px;
+  text-align: center;
+
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 12px;
+  line-height: 2;
 }

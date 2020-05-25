@@ -3,14 +3,17 @@
 /* Герой */
 
 .hero {
+  height: 600px;
   background-color: var(--primary-text-color);
   text-align: center;
 }
 .section.hero {
-  padding-top: 200px;
-  padding-bottom: 200px;
+  padding-top: 0px;
+  padding-bottom: 0;
+  height: 600px;
 }
 .hero-title {
+  padding-top: 200px;
   margin-top: 0;
   margin-bottom: 46px;
   color: var(--primary-white-color);
@@ -53,6 +56,13 @@
 
 /* Привелегии */
 
+.privilege {
+  padding-bottom: 0;
+}
+.container.privilege {
+  padding-bottom: 94px;
+  border-bottom: 1px solid #ececec;
+}
 .section-title {
   margin-top: 0;
   margin-bottom: 50px;
@@ -65,7 +75,6 @@
 }
 .features {
   display: flex;
-  border-bottom: 1px solid #ececec;
 }
 .features .item {
   width: 270px;
@@ -84,8 +93,6 @@
   text-transform: uppercase;
 }
 .features .text {
-  margin-top: 0;
-  margin-bottom: 94px;
   color: var(--primary-text-color);
 
   font-size: 14px;
@@ -114,21 +121,23 @@
   line-height: 1.14;
   text-transform: uppercase;
 }
+
 /* Команда */
 
-.team-nav {
-  padding-top: 94px;
-  padding-bottom: 94px;
+.section.team {
   background-color: #f5f4fa;
 }
+
 .section .team {
   display: flex;
   text-align: center;
 }
+
 .team .item {
   width: 270px;
   background-color: var(--primary-white-color);
 }
+
 .team .item + .item {
   margin-left: 30px;
 }
@@ -142,6 +151,7 @@
   font-size: 16px;
   line-height: 1.19;
 }
+
 .team .text {
   margin-bottom: 16px;
   color: var(--primary-text-color);
@@ -150,6 +160,7 @@
   font-size: 16px;
   line-height: 1.19;
 }
+
 .item .item-team {
   display: flex;
   text-align: center;
@@ -157,6 +168,7 @@
 }
 
 /* Клиенты */
+
 .client-title {
   margin-top: 0;
   margin-bottom: 50px;
@@ -167,21 +179,28 @@
   line-height: 1.17;
   text-align: center;
 }
+
 .client {
   margin-top: 0;
   margin-bottom: 0;
   display: flex;
 }
+
 .client .item {
   text-align: center;
   width: 170px;
   background-color: tomato;
 }
+
 .client .item + .item {
   margin-left: 30px;
 }
 
 /* Стили для portfolio.html */
+
+.section.portfolio {
+  padding-top: 93px;
+}
 
 /* Фильтр */
 
@@ -217,7 +236,7 @@
 }
 .main .text {
   margin-top: 4px;
-  margin-bottom: 20px;
+  padding-bottom: 20px;
   margin-left: 24px;
   color: var(--primary-text-color);
   background-color: var(--primary-white-color);

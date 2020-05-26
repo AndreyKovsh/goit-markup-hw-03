@@ -28,9 +28,9 @@
 
 /* Кнопка */
 .button {
+  border-radius: 4px;
   text-align: center;
 
-  display: inline-block;
   background-color: var(--background-button-color);
   color: var(--title-text-color);
 
@@ -205,11 +205,13 @@
 /* Фильтр */
 
 .btn {
+  display: flex;
+  justify-content: center;
   margin-bottom: 50px;
-  text-align: center;
 }
 .btn .button {
   padding: 6px 22px;
+  border: 0px;
 }
 .btn .button + .button {
   margin-left: 8px;
